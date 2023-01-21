@@ -1,9 +1,9 @@
 # Written by Emin Ayyıldız
 print("Written by Emin Ayyıldız")
 import time
-file_name = "students'_grades.txt.txt"
+file_name = "students_grades.txt"
 def show_grades():
-    with open("students'_grades.txt","r", encoding="utf-8") as file:
+    with open("students_grades.txt","r", encoding="utf-8") as file:
         for line in file:
             print(grade_letter_calculator(line))
 def grade_letter_calculator(line):
